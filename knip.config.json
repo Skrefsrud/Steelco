@@ -1,0 +1,11 @@
+{
+    "entryFiles": [
+        "src/app/**/*.{js,jsx,ts,tsx}",
+        "src/pages/**/*.{js,jsx,ts,tsx}"
+    ],
+    "projectFiles": [
+        "src/**/*.{js,jsx,ts,tsx}",
+        "!src/**/*.test.{js,jsx,ts,tsx}",
+        "!src/__mocks__/**"
+    ]
+}
