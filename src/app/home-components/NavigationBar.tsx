@@ -3,8 +3,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { useWindowSize } from '@/hooks/useWindowSize';
-
 import HamburgerMenu from './HamburgerMenu';
 import NavigationLinks from './NavigationLinks';
 
@@ -20,12 +18,12 @@ const NavigationBar = () => {
                         alt='Steelco-Teknikk Logo'
                         width={258}
                         height={258}
-                        className={`'h-24' w-auto object-contain`}
+                        className={`w-auto max-w-[500px] object-contain`}
                     />
                 </Link>
 
                 {/* RIGHT: nav links */}
-                <div className='hidden md:block'>
+                <div className='hidden lg:block'>
                     <NavigationLinks />
                 </div>
                 <HamburgerMenu />

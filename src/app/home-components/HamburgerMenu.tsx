@@ -22,7 +22,7 @@ const HamburgerMenu = () => {
     const isActive = (href: string): boolean => (href === '/' ? pathname === href : pathname.startsWith(href));
 
     return (
-        <div className='md:hidden'>
+        <div className='lg:hidden'>
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 className='text-primary focus:ring-ring inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-inset'>
