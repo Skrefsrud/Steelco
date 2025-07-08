@@ -92,8 +92,7 @@ export default function ContactPage() {
                 {/* CTA Section */}
                 <div className='mt-12 rounded-2xl border border-gray-100 bg-white p-12 text-center shadow-lg'>
                     <p className='mx-auto mb-8 max-w-2xl text-xl text-gray-600'>
-                        Kontakt oss i dag for en uforpliktende samtale om hvordan vi kan hjelpe deg med dine prosjekter.
-                        ""Kan endres til et form for mail sending elns""
+                        Ta kontakt med oss for å høre hvordan vi kan hjelpe deg med dine prosjekter
                     </p>
 
                     <div className='flex flex-col justify-center gap-4 sm:flex-row'>
