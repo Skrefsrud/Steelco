@@ -1,6 +1,3 @@
-import isoblockImage from '@/assets/isoblock/isoblock.PNG';
-import kabelkanalerImage from '@/assets/kabelkanal_heatpoint/Kabelkanal_1.PNG';
-import ballastlimImage from '@/assets/lim/lim.PNG';
 import ProductCard from '@/components/ProductCard';
 
 export default function HomePage() {
