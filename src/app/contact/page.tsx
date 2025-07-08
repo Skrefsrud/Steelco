@@ -96,13 +96,13 @@ export default function ContactPage() {
                     <div className='flex flex-col justify-center gap-4 sm:flex-row'>
                         <a
                             href='tel:+4795964035'
-                            className='inline-flex items-center gap-3 rounded-xl bg-[#f3661a] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-green-700 hover:shadow-xl'>
+                            className='inline-flex items-center gap-3 rounded-xl bg-[#f3661a] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl'>
                             <Phone className='h-5 w-5' />
                             Ring oss nå
                         </a>
                         <a
                             href='mailto:salg@steelco.no'
-                            className='inline-flex items-center gap-3 rounded-xl bg-[#58565b] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-xl'>
+                            className='inline-flex items-center gap-3 rounded-xl bg-[#58565b] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl'>
                             <Mail className='h-5 w-5' />
                             Send e-post
                         </a>
