@@ -63,11 +63,10 @@ export default function IsoblockPage() {
                                     </p>
 
                                     <p>
-                                        For å hindre varmetap og/eller unødig energiforbruk kan Baneprodukter tilby
-                                        IsoBlock isolasjon, en formstøpt syntetisk isolasjon montert på utsiden av
-                                        stokkskinnen i området med varmeelement. Isolasjonen består av materialer som er
-                                        utviklet i robuste jernbanemiljø for å oppnå betydelig isolasjonseffekt og lang
-                                        holdbarhet.
+                                        For å hindre varmetap og/eller unødig energiforbruk kan vi tilby IsoBlock
+                                        isolasjon, en formstøpt syntetisk isolasjon montert på utsiden av stokkskinnen i
+                                        området med varmeelement. Isolasjonen består av materialer som er utviklet i
+                                        robuste jernbanemiljø for å oppnå betydelig isolasjonseffekt og lang holdbarhet.
                                     </p>
 
                                     <p>
