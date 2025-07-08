@@ -16,9 +16,9 @@ const NavigationBar = () => {
                     <Image
                         src={'/Steelco-logo.svg'}
                         alt='Steelco-Teknikk Logo'
-                        width={258}
-                        height={258}
-                        className={`w-auto max-w-[500px] object-contain`}
+                        width={128}
+                        height={128}
+                        className={`w-auto max-w-4/5 object-contain md:max-w-[30rem]`}
                     />
                 </Link>
 

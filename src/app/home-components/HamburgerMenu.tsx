@@ -131,8 +131,8 @@ const HamburgerMenu = () => {
                             <div className='px-1 py-2'>
                                 {NAVIGATION_LINKS.map((link, index) => {
                                     const active = isActive(link.href);
-                                    
-return (
+
+                                    return (
                                         <motion.div key={link.label} variants={itemVariants} custom={index}>
                                             <Link
                                                 href={link.href}
