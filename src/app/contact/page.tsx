@@ -1,5 +1,3 @@
-import Navigation from '@/components/ProductNavigation';
-
 import { Mail, MapPin, Phone } from 'lucide-react';
 
 export default function ContactPage() {
@@ -11,8 +9,8 @@ export default function ContactPage() {
                 </div>
 
                 <div className='grid grid-cols-1 items-start gap-12 lg:grid-cols-3'>
-                    {/* Contact Information */}
-                    <div className='space-y-8'>
+                    {/* Contact Information - 2 columns on small screens, 1 column on large screens */}
+                    <div className='grid grid-cols-2 gap-x-8 gap-y-8 lg:grid-cols-1 lg:space-y-8'>
                         {/* Address */}
                         <div className='flex items-start gap-4'>
                             <MapPin className='mt-1 h-6 w-6 flex-shrink-0 text-gray-600' />
@@ -71,7 +69,7 @@ export default function ContactPage() {
                         </div>
                     </div>
 
-                    {/* Map */}
+                    {/* Map - Full width on small screens, 2 columns on large screens */}
                     <div className='w-full lg:col-span-2'>
                         <div className='overflow-hidden rounded-lg bg-gray-100 shadow-sm'>
                             <iframe
@@ -89,22 +87,22 @@ export default function ContactPage() {
                         </div>
                     </div>
                 </div>
+
                 {/* CTA Section */}
                 <div className='mt-12 rounded-2xl border border-gray-100 bg-white p-12 text-center shadow-lg'>
                     <p className='mx-auto mb-8 max-w-2xl text-xl text-gray-600'>
                         Ta kontakt med oss for å høre hvordan vi kan hjelpe deg med dine prosjekter
                     </p>
-
                     <div className='flex flex-col justify-center gap-4 sm:flex-row'>
                         <a
                             href='tel:+4795964035'
-                            className='inline-flex items-center gap-3 rounded-xl bg-[#f3661a] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-green-700 hover:shadow-xl'>
+                            className='inline-flex items-center gap-3 rounded-xl bg-[#f3661a] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl'>
                             <Phone className='h-5 w-5' />
                             Ring oss nå
                         </a>
                         <a
                             href='mailto:salg@steelco.no'
-                            className='inline-flex items-center gap-3 rounded-xl bg-[#58565b] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-xl'>
+                            className='inline-flex items-center gap-3 rounded-xl bg-[#58565b] px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl'>
                             <Mail className='h-5 w-5' />
                             Send e-post
                         </a>
