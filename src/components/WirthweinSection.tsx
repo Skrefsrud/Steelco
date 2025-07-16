@@ -53,7 +53,7 @@ export default function WirthweinSection() {
                         <p className='mb-4 text-lg leading-relaxed font-medium text-[#58565b]'>
                             Plastkabelkanaler produsert av Wirthwein tilbyr den optimale løsningen for installasjon av
                             strøm- og datalinjer. Så langt har Deutsche Bahn AG og mange andre selskaper over hele
-                            verden installert mer enn 1 000 000 meter med kabelkanaler.
+                            verden installert mer enn 1 000 000 meter med Wirthwein sine kabelkanaler.
                         </p>
                         <p className='mb-4 text-lg leading-relaxed font-medium text-[#58565b]'>
                             Kabelkanalene fra Wirthwein brukes også i solcelleanlegg, vindkraftverk og andre
