@@ -12,7 +12,7 @@ export default function HeroContent() {
             <div className='flex flex-col items-start justify-start gap-4 sm:flex-row sm:items-center'>
                 <Link
                     href='/products'
-                    className='transform rounded-lg bg-[#f3661a] px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-white hover:text-[#f3661a]'>
+                    className='transform rounded-lg border-2 border-[#f3661a] bg-[#f3661a] px-8 py-4 font-semibold text-white transition-all duration-300 hover:scale-105 hover:bg-white hover:text-[#f3661a]'>
                     Våre produkter
                 </Link>
                 <Link
