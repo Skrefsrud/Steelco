@@ -20,7 +20,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-    title: 'Steelco',
+    title: 'Steelco-Teknikk AS',
     description: 'Steelco AS - Kabelbeskyttelse og isolering',
     icons: {
         icon: '/favicon.ico',

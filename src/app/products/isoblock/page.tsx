@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import DownloadButton from '@/components/DownloadButton';
 import Navigation from '@/components/ProductNavigation';
+import ReadMore from '@/components/ReadMore';
 
 import { Award, FileText, Hourglass, Thermometer, TrendingDown, Users, Zap } from 'lucide-react';
 
@@ -12,6 +13,31 @@ export default function IsoblockPage() {
         { icon: Zap, text: 'Økt tilgjengelighet av sporvekslere' },
         { icon: Hourglass, text: 'Lang produktlevetid på 20 år' }
     ];
+
+    const description = `
+        Isoblock gjør det mulig for skinnene å holde på tilstrekkelig varme til å smelte
+        snø og is, og kan i gjennomsnitt gi opptil 50 % energibesparelse. Den syntetiske
+        isolasjonen sørger for at varmen som brukes til sporvekselvarme utnyttes på en
+        svært effektiv måte.
+
+        For å hindre varmetap og/eller unødig energiforbruk kan vi tilby IsoBlock
+        isolasjon, en formstøpt syntetisk isolasjon montert på utsiden av stokkskinnen i
+        området med varmeelement. Isolasjonen består av materialer som er utviklet i
+        robuste jernbanemiljø for å oppnå betydelig isolasjonseffekt og lang holdbarhet.
+
+        Designet på isolasjonsmaterialet gjør at man ikke trenger å fjerne isolasjonen
+        ved bruk av pakkmaskin. Ved å investere i IsoBlock isolasjon på stokkskinner med
+        varmeelement kan kostnaden raskt tjenes inn i form av energibesparelser og ved
+        økt regularitet på togtrafikk.
+
+        Investeringen i isolasjon for nye oppvarmingsinstallasjoner kan tjenes inn
+        umiddelbart ved å bruke en lavere elektrisk effekt og tynnere forsyningskabler.
+        Ved å montere IsoBlock isolasjon på stokkskinner med varmeelement, beholdes
+        varmeenergien på ønsket sted mellom tunge og stokkskinne.
+
+        Vi har mange referanser fra fornøyde kunder som forteller om gode resultater ved
+        bruk av Isoblock.
+    `;
 
     return (
         <div className='min-h-screen bg-gray-50'>
@@ -54,40 +80,7 @@ export default function IsoblockPage() {
                         {/* Simplified Description Section */}
                         <section className='mb-12'>
                             <div className='mb-6 rounded-lg border-l-4 border-[#f3661a] bg-orange-50 p-6'>
-                                <div className='space-y-4 text-lg leading-relaxed font-medium text-[#58565b]'>
-                                    <p>
-                                        Isoblock gjør det mulig for skinnene å holde på tilstrekkelig varme til å smelte
-                                        snø og is, og kan i gjennomsnitt gi opptil 50 % energibesparelse. Den syntetiske
-                                        isolasjonen sørger for at varmen som brukes til sporvekselvarme utnyttes på en
-                                        svært effektiv måte.
-                                    </p>
-
-                                    <p>
-                                        For å hindre varmetap og/eller unødig energiforbruk kan vi tilby IsoBlock
-                                        isolasjon, en formstøpt syntetisk isolasjon montert på utsiden av stokkskinnen i
-                                        området med varmeelement. Isolasjonen består av materialer som er utviklet i
-                                        robuste jernbanemiljø for å oppnå betydelig isolasjonseffekt og lang holdbarhet.
-                                    </p>
-
-                                    <p>
-                                        Designet på isolasjonsmaterialet gjør at man ikke trenger å fjerne isolasjonen
-                                        ved bruk av pakkmaskin. Ved å investere i IsoBlock isolasjon på stokkskinner med
-                                        varmeelement kan kostnaden raskt tjenes inn i form av energibesparelser og ved
-                                        økt regularitet på togtrafikk.
-                                    </p>
-
-                                    <p>
-                                        Investeringen i isolasjon for nye oppvarmingsinstallasjoner kan tjenes inn
-                                        umiddelbart ved å bruke en lavere elektrisk effekt og tynnere forsyningskabler.
-                                        Ved å montere IsoBlock isolasjon på stokkskinner med varmeelement, beholdes
-                                        varmeenergien på ønsket sted mellom tunge og stokkskinne.
-                                    </p>
-
-                                    <p>
-                                        Vi har mange referanser fra fornøyde kunder som forteller om gode resultater ved
-                                        bruk av Isoblock.
-                                    </p>
-                                </div>
+                                <ReadMore text={description} />
                             </div>
 
                             {/* Benefits + Image Side-by-Side */}
