@@ -8,6 +8,7 @@ import '@/app/globals.css';
 import NavigationBar from '@/app/home-components/NavigationBar';
 import Footer from '@/components/Footer';
 import { ScrollProvider } from '@/contexts/ScrollContext';
+import { Analytics } from '@vercel/analytics/react';
 
 const geistSans = localFont({
     src: './fonts/GeistVF.woff',
@@ -54,6 +55,7 @@ const Layout = ({ children }: Readonly<{ children: ReactNode }>) => {
                     {children}
                     <Footer />
                 </ScrollProvider>
+                <Analytics />
             </body>
         </html>
     );
