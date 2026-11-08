@@ -129,7 +129,7 @@ export default function WirthweinSection() {
                         <div className='p-6'>
                             <div className='overflow-hidden rounded-lg border border-gray-200 shadow-sm'>
                                 <iframe
-                                    src='https://www.youtube.com/embed/NHIFib0Rn-U?start=162'
+                                    src='https://www.youtube.com/embed/6UbrrAgKknQ'
                                     title='Wirthwein kabelkanal video'
                                     allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
                                     allowFullScreen
