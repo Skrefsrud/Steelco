@@ -201,7 +201,12 @@ export default function IsoblockPage() {
                                 <h2 className='text-2xl font-bold text-[#58565b]'>Dokumentasjon</h2>
                             </div>
                             <div className='flex flex-col gap-4 sm:flex-row'>
-                                <DownloadButton href='/assets/isoblock/Dokumentasjon_Isoblock.pdf'>
+                                <DownloadButton href='/assets/isoblock/Isoblock_produktblad_2026.pdf'>
+                                    Isoblock produktblad
+                                </DownloadButton>
+                                <DownloadButton
+                                    href='/assets/isoblock/Dokumentasjon_Isoblock.pdf'
+                                    variant='secondary'>
                                     Dokumentasjon Isoblock
                                 </DownloadButton>
                             </div>

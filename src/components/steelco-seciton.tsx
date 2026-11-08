@@ -8,7 +8,7 @@ export default function SteelcoSection() {
                             <h2 className='text-3xl font-bold tracking-tight text-[#58565b] sm:text-4xl md:text-5xl'>
                                 Steelco-Teknikk
                             </h2>
-                            <div className='bg-primary h-1 w-84 rounded-full'></div>
+                            <div className='bg-primary h-1 w-full max-w-84 rounded-full'></div>
                         </div>
 
                         <div className='prose prose-lg max-w-none'>
